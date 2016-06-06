@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:background="#180000ff">
+    
+    <!--android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp" -->
+    
+    <TextView 
+        android:id="@+id/text_id"
+        android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="Demo"
+        android:textSize="15dp" />
+    
+    <TextView 
+        android:id="@+id/address_text_id"
+        android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="address"
+        android:textSize="15dp"
+        android:layout_below="@+id/text_id" />    
+    
+    <Button 
+        android:id="@+id/pair_button_id"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:layout_alignParentRight="true"
+        android:text="Pair"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corners_gray"
+        />
+    
+    <Button 
+        android:id="@+id/connect_button_id"
+        android:layout_height="30dp"
+        android:layout_width="80dp"
+        android:text="Connect"
+        android:layout_toLeftOf="@+id/pair_button_id"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corners_gray"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_vertical" />    
+
+</RelativeLayout>
