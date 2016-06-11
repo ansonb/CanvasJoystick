@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.canvasjoystick.MainActivity" >     
+
+    
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="99"
+        android:title="Help"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never"/>    
+    
+    <item 
+        android:id="@+id/action_BT"
+        android:drawable="@drawable/btdis"        
+        android:title="BT"
+        app:showAsAction="ifRoom"/>       
+    
+
+</menu>
