@@ -4,7 +4,12 @@
     android:layout_height="60dp"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
+<<<<<<< HEAD
     android:paddingTop="10dp">
+=======
+    android:paddingTop="10dp"
+    android:background="#180000ff">
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
     
     <!--android:paddingLeft="5dp"
         android:paddingRight="5dp"
@@ -13,6 +18,7 @@
     
     <TextView 
         android:id="@+id/text_id"
+<<<<<<< HEAD
         android:layout_height="30dp"
         android:layout_width="match_parent"
         android:layout_alignParentLeft="true"
@@ -20,12 +26,24 @@
         android:textSize="20dp"
         android:textStyle="bold" 
         android:layout_alignParentTop="true"/>
+=======
+        android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:text="Demo"
+        android:textSize="15dp" />
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
     
     <TextView 
         android:id="@+id/address_text_id"
         android:layout_height="20dp"
         android:layout_width="match_parent"
         android:layout_alignParentLeft="true"
+<<<<<<< HEAD
+=======
+        android:layout_gravity="center"
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
         android:text="address"
         android:textSize="15dp"
         android:layout_below="@+id/text_id" />    
@@ -38,7 +56,11 @@
         android:text="Pair"
         android:textAlignment="center"
         android:background="@drawable/rounded_corners_gray"
+<<<<<<< HEAD
         android:textSize="20dp"/>
+=======
+        />
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
     
     <Button 
         android:id="@+id/connect_button_id"
@@ -49,7 +71,11 @@
         android:textAlignment="center"
         android:background="@drawable/rounded_corners_gray"
         android:layout_marginRight="5dp"
+<<<<<<< HEAD
         android:layout_gravity="center_vertical"
         android:textSize="20dp" />    
+=======
+        android:layout_gravity="center_vertical" />    
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
 
 </RelativeLayout>

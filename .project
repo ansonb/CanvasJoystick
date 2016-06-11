@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>NewJoystickLayout</name>
+=======
+	<name>CanvasJoystick</name>
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
 	<comment></comment>
 	<projects>
 	</projects>

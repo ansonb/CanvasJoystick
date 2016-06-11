@@ -5,6 +5,7 @@
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 14+ devices.
     -->
+<<<<<<< HEAD
     
     <!-- Application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -32,5 +33,10 @@
     <!-- d3eb00 --> 
     
     
+=======
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
 
 </resources>

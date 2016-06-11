@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">JoystickApp</string>
+=======
+    <string name="app_name">CanvasJoystick</string>
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

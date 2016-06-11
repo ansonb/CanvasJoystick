@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.nuk.joystickapp"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -9,10 +10,26 @@
     
     <uses-sdk
         android:minSdkVersion="8"
+=======
+    package="com.example.canvasjoystick"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.example.canvasjoystick"
+        android:label="Android Instrumentation" />    
+    
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+        
+    <uses-sdk
+        android:minSdkVersion="10"
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
         android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
+<<<<<<< HEAD
         android:icon="@drawable/joystick_1"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
@@ -20,6 +37,17 @@
             android:name=".MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait">
+=======
+        android:icon="@drawable/joystick"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <uses-library android:name="android.test.runner" />
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,12 +58,15 @@
         <activity 
             android:name=".ListOfAvailableDevices"
             android:label="Available Devices">         
+<<<<<<< HEAD
         </activity>    
         
         <activity 
             android:name=".HelpClass"
             android:label="Help"
              android:theme="@android:style/Theme.Translucent.NoTitleBar" >            
+=======
+>>>>>>> 0590ccae0e1c790a0c8600ec1e16462abeff193d
         </activity>
         
     </application>

@@ -1,0 +1,17 @@
+<resources>
+    
+    <!-- 44828282 -->
+    
+    <color name="backgroundOdd">
+        #18ffffff
+    </color>
+        
+    <color name="backgroundEven">
+        #ffccf5ff
+    </color>
+    
+    <color name="stickShadow">
+        #84828282
+    </color>
+    
+</resources>
